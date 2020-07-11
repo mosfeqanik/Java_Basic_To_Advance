@@ -28,8 +28,5 @@ public class CheckVowelAndConsonant {
         }else{
         System.out.println("Consonant");
         }
-
-
-
     }
 }
