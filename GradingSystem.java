@@ -24,9 +24,8 @@ public class GradingSystem {
            System.out.println("A+ grade");  
        }else{  
            System.out.println("Invalid!");  
-       }  
-}      
+       }
     }
-    
-    
-}
+}      
+
+
