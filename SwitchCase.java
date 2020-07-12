@@ -39,7 +39,8 @@ public class SwitchCase {
             case 9:
                 System.out.println("Nine");    
                 break;
-
+            default:
+                System.out.println("Not a Digit");
         }
     }
 }
