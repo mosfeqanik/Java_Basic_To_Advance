@@ -2,7 +2,7 @@
 package basic;
 import java.util.Scanner;
 
-public class ExampleWithLoop {
+public class ExampleWithLoop2 {
     
     public static void main(String[] args) {
         int m,n;
@@ -14,7 +14,7 @@ public class ExampleWithLoop {
         for (int i = m ; i <  n; i++) {
             sum = sum +i;
         }
-        System.out.println("the sum of 1 to 10: "+ sum );
+        System.out.println("the sum of m to n: "+ sum );
     }
     
 }

@@ -5,7 +5,7 @@ public class ExamplewithLoop4 {
     
     public static void main(String[] args) {
         int m,n;
-        java.util.Scanner input = new java.util.Scanner(System.in);
+        Scanner input = new Scanner(System.in);
         System.out.print("Enter m and n : ");
         m=input.nextInt();
         n=input.nextInt();

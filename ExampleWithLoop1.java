@@ -1,5 +1,5 @@
 package basic;
-public class ExampleWithLoops {
+public class ExampleWithLoop1 {
     public static void main(String[] args) {
         
         int sum=0;
