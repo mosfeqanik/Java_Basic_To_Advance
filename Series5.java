@@ -1,17 +1,17 @@
 package basic;
 import java.util.Scanner;
 
-public class Series1 {
+public class Series5 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.print("Enter the Ending number: ");
         int EndNumber = input.nextInt();
-        int sum=0;
+        int sum=1;
         
         for (int i = 1; i <= EndNumber ; i++) {
-            sum = sum+i;
+            sum = sum*i;
             System.out.print(i+" ");
         }
-        System.out.println("The sum of 1 to " +EndNumber+" :" +sum );
+        System.out.println("The multiplication of 1 to " +EndNumber+" :" +sum );
     }
 }
