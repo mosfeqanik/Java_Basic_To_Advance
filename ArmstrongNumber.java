@@ -1,5 +1,6 @@
 package basic;
 import java.util.Scanner;
+//armstrong number check holo Digit golo cube korle same digit thakbe 
 public class ArmstrongNumber {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
