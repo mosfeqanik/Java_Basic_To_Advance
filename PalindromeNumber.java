@@ -1,6 +1,6 @@
 package basic;
 import java.util.Scanner;
-
+//palindrome Number reverse korleo same thakbe
 public class PalindromeNumber {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
