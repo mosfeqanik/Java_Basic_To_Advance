@@ -16,9 +16,6 @@ public class ReverseOfDigit {
             temp=temp/10;
         }
         System.out.println("The Reverse of the number is :" + sum);
-        
-        
-        
-        
+
     }
 }
