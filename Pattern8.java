@@ -1,4 +1,3 @@
-
 package basic;
 import java.util.Scanner;
 
@@ -17,6 +16,5 @@ public class Pattern8 {
             }
             System.out.println(" ");
         }
-        
     }
 }
