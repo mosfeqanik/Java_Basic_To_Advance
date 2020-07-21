@@ -12,8 +12,6 @@ public class Pattern1 {
                 System.out.print(" "+col);
             }
             System.out.println(" ");
-        }
-        
+        }   
     }
-    
 }
