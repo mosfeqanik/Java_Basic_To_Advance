@@ -1,4 +1,3 @@
-
 package basic;
 import java.util.Scanner;
 
@@ -9,6 +8,7 @@ public class Pattern6 {
         System.out.print("please Enter Line number: ");
         int n=input.nextInt();
         int result;
+        
         for (int row = 1; row <= n; row++) {
             for (int col = 1; col <= row; col++) {
                 result=col%2;
@@ -16,6 +16,5 @@ public class Pattern6 {
             }
             System.out.println(" ");
         }
-        
     }
 }
