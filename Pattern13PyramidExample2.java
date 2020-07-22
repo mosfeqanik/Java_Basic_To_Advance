@@ -1,6 +1,6 @@
 package basic;
 
-public class Pattern12PyramidExample2 {
+public class Pattern13PyramidExample2 {
    public static void main(String[] args) {  
         int term=6;  
         for(int i=1;i<=term;i++){  
