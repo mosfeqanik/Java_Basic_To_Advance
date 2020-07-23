@@ -9,7 +9,7 @@ public class Pattern30RightSidePyramid {
         
         for (int row = 1; row <=line; row++) {
             //for printing space 
-            for (int col = 1; col <=line-row; col++) {
+            for (int space = 1; space <=line-row; space++) {
                 System.out.print(" ");
             }
             for (int col = 1; col <= row; col++) {
