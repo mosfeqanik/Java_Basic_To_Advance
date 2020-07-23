@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class Pattern30RightSidePyramid {
     public static void main(String[] args) {
         Scanner input= new Scanner(System.in);
-        System.out.print("Enter Line number: ");
+        System.out.print("Enter Line number:  ");
         int line=input.nextInt();
         
         for (int row = 1; row <=line; row++) {
