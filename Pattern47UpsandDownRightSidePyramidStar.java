@@ -7,6 +7,7 @@ public class Pattern47UpsandDownRightSidePyramidStar {
         System.out.print("Enter Line number:  ");
         int line=input.nextInt();
         
+        
         int result;
         for (int row = line; row >=1; row--) {
             for (int space = 1; space <=line-row; space++) {
@@ -17,6 +18,7 @@ public class Pattern47UpsandDownRightSidePyramidStar {
             }
             System.out.println("");
         }
+
     }
 }
 
