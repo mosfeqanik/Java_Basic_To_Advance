@@ -25,7 +25,7 @@ public class Pattern30ArrowExample {
             for (int col = 1; col <= row; col++) {
                 System.out.print(row);
             }
-            System.out.println(" ");
+            System.out.println("");
         }
     }    
 }    
