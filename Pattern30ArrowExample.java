@@ -1,7 +1,7 @@
 package basic;
 import java.util.Scanner;
 
-public class Pattern29ArrowExample {
+public class Pattern30ArrowExample {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.print("Enter a Line number to Draw: ");
@@ -13,7 +13,7 @@ public class Pattern29ArrowExample {
                 System.out.print(" ");
             }
             for (int col = 1; col <= row; col++) {
-                System.out.print(col);
+                System.out.print(row);
             }
             System.out.println(" ");
         }
@@ -23,11 +23,10 @@ public class Pattern29ArrowExample {
                 System.out.print(" ");
             }
             for (int col = 1; col <= row; col++) {
-                System.out.print(col);
+                System.out.print(row);
             }
             System.out.println(" ");
         }
-        
     }    
 }    
 
