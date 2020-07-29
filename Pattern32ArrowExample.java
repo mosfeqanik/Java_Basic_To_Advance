@@ -3,6 +3,7 @@ import java.util.Scanner;
 
 public class Pattern32ArrowExample {
     public static void main(String[] args) {
+        
         Scanner input = new Scanner(System.in);
         System.out.print("Enter a Line number to Draw: ");
         int line= input.nextInt();
