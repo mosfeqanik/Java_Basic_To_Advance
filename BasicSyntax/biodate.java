@@ -1,4 +1,4 @@
-package basic;
+package basic.BasicSyntax;
 public class biodate {
     public static void main(String[]args){
         System.out.println("Mosfeq anik \\");
