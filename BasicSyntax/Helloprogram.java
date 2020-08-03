@@ -1,4 +1,5 @@
-package basic.BasicSyntax Syntax;
+package basic.BasicSyntax;
+
 
 class Helloprogram{
 	public static void main(String args[]){
