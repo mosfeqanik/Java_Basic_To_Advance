@@ -10,7 +10,7 @@ public class Pattern54 {
         Line = input.nextInt();
         for (int row = 1; row <= Line; row++) {
             for (int col = 1; col <= row; col++) {
-                System.out.print(row*col);
+                System.out.print(" "+row*col+" ");
             }
             System.out.println(" ");
         }
