@@ -1,3 +1,6 @@
+package basic.BasicSyntax;
+
+
 import java.util.Scanner;
 
 public class Solution {

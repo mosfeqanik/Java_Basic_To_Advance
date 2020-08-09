@@ -1,4 +1,4 @@
-package basic;
+package basic.BasicSyntax;
 
 public class CommentDemo {
     public static void main(String[] args){

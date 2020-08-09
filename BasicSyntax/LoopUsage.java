@@ -1,5 +1,5 @@
 
-package basic;
+package basic.BasicSyntax;
 
 public class LoopUsage {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package basic;
+package basic.BasicSyntax;
 import java.util.Scanner;
 public class JavaNestedIfExample2 {
     public static void main(String[] args) {
