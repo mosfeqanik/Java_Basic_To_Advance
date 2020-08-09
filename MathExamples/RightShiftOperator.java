@@ -1,5 +1,5 @@
 
-package basic;
+package basic.MathExamples;
 
 public class RightShiftOperator {
     public static void main(String args[]){  

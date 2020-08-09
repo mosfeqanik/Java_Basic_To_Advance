@@ -1,4 +1,4 @@
-package basic;
+package basic.MathExamples;
 import java.util.Scanner;
 public class GradingSystem {
     public static void main(String[] args) {

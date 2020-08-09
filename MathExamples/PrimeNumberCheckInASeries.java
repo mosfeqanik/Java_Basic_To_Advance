@@ -1,5 +1,5 @@
 
-package basic;
+package basic.MathExamples;
 import java.util.Scanner;
 public class PrimeNumberCheckInASeries {
     public static void main(String[] args) {

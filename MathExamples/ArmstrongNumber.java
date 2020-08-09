@@ -1,4 +1,4 @@
-package basic;
+package basic.MathExamples;
 import java.util.Scanner;
 //armstrong number check holo Digit golo cube korle same digit thakbe 
 public class ArmstrongNumber {

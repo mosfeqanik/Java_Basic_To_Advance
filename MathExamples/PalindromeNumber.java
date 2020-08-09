@@ -1,4 +1,4 @@
-package basic;
+package basic.MathExamples;
 import java.util.Scanner;
 //palindrome Number reverse korleo same thakbe
 public class PalindromeNumber {
