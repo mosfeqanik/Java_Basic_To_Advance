@@ -1,14 +1,34 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package basic.PatternsWithLoops;
 
-/**
- *
- * @author MN
- */
+import java.util.Scanner;
+
 public class Pattern60Pyramidwithabc {
     
+    public static void main(String[] args) {
+        
+        Scanner input = new Scanner(System.in);
+        System.out.print("Enter your Desire Line number: ");
+        int line= input.nextInt();
+        
+        for (int row = 1; row <=line; row++) {
+            for (int col =1; col <=line-row; col++) {
+                System.out.print(" ");
+            }
+            for (int col = 1; col <= 2*row-1; col++) {
+                int result=row+96;
+                //result of integar  then convert to charecter
+                char c=(char)result;
+                System.out.print(c);
+            }
+            System.out.println(" ");
+        }
+        
+    }
+    
+    
+    
+    
+    
 }
+
+
