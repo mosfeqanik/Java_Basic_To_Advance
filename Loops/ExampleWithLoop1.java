@@ -1,4 +1,4 @@
-package basic;
+package basic.Loops;
 public class ExampleWithLoop1 {
     public static void main(String[] args) {
         

@@ -1,4 +1,4 @@
-package basic;
+package basic.Loops;
 import java.util.Scanner;
 
 public class Series6 {
