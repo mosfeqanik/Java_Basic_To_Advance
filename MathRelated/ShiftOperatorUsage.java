@@ -1,5 +1,5 @@
 
-package basic;
+package basic.MathRelated;
 
 public class ShiftOperatorUsage {
 

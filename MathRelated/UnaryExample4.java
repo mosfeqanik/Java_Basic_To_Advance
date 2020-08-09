@@ -1,5 +1,5 @@
 
-package basic;
+package basic.MathRelated;
 
 public class UnaryExample4 {
     public static void main(String args[]){  

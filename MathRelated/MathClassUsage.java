@@ -1,4 +1,4 @@
-package basic;
+package basic.MathRelated;
 import java.util.Scanner;
 public class MathClassUsage {
     public static void main(String[] args) {

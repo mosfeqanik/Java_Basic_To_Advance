@@ -1,4 +1,4 @@
-package basic;
+package basic.MathRelated;
 
 public class UnaryExample3 {
     public static void main(String args[]){  

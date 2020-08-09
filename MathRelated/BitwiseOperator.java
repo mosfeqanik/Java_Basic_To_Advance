@@ -1,5 +1,5 @@
 
-package basic;
+package basic.MathRelated;
 
 public class BitwiseOperator {
     public static void main(String[] args) {
