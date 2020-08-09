@@ -1,7 +1,6 @@
 package basic.PatternsWithLoops;
 import java.util.Scanner;
-public class Pattern54 {
-    
+public class Pattern54 { 
     public static void main(String[] args) {
         int Line;
         Scanner input = new Scanner(System.in);
