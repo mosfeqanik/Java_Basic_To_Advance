@@ -12,7 +12,7 @@ public class Pattern67PyramidwithStar {
             for (int col =1; col <=line-row; col++) {
                 System.out.print(" ");
             }
-            for (int col = 1; col <= row-1; col++) {
+            for (int col = 1; col <= row; col++) {
                 System.out.print("* "); 
             }
             System.out.println(" ");
