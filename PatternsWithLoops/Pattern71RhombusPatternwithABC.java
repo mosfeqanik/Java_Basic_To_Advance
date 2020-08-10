@@ -31,14 +31,8 @@ public class Pattern71RhombusPatternwithABC {
                 System.out.print(c);  
             }
             System.out.println(" ");
-        }
-        
+        }   
     }
-    
-    
-    
-    
-    
 }
 
 
