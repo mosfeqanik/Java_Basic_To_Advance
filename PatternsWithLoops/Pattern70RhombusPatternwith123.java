@@ -26,13 +26,7 @@ public class Pattern70RhombusPatternwith123 {
             }
             System.out.println(" ");
         }
-        
-    }
-    
-    
-    
-    
-    
+    }    
 }
 
 
