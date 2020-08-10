@@ -1,7 +1,7 @@
 package basic.PatternsWithLoops;
 import java.util.Scanner ;
 
-public class PatternPyramid67withStar {
+public class Pattern67PyramidwithStar {
     public static void main(String[] args) {
         
         Scanner input = new Scanner(System.in);
