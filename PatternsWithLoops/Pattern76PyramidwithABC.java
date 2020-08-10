@@ -22,7 +22,3 @@ public class Pattern76PyramidwithABC {
         }  
     }
 }
-
-
-
-
