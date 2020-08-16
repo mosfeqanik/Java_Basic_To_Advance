@@ -19,6 +19,6 @@ public class Pattern76PyramidwithABC {
                 System.out.print(c+" "); 
             }
             System.out.println(" ");
-        }  
+        }       
     }
 }
