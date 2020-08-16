@@ -13,7 +13,5 @@ public class Pattern85FloydsTriangle {
             }
             System.out.println(" ");
         }
-    
-    
     }
 }
