@@ -14,8 +14,10 @@ public class ArrayStart {
         number[4]=30;
       
         int sum = number[0] + number[1]+number[2]+number[3]+number[4];
+        int len = number.length;
         
         System.out.println("sum = "+sum);
+        System.out.println("Lenght of Array is = "+ len);
         int[] number1 = new int[5];
         number1[0]=12;
         number1[1]=21;
