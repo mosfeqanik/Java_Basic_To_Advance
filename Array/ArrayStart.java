@@ -7,6 +7,8 @@ public class ArrayStart {
         int[] number; //Declaration
         String classmateName[];
         String[] FamilyMemberName;
+        float[] floatNumbers; // declaration 
+        floatNumbers = new float[] { 1.02f, 0.03f, 4f }; 
         number = new int[5]; //initialization
 
         number[0] = 10;
@@ -32,6 +34,9 @@ public class ArrayStart {
         int sum1 = number1[0] + number1[1] + number1[2] + number1[3] + number1[4];
         System.out.println("sum1 = " + sum1);
 
+        for(float c:floatNumbers){
+            System.out.println(c);
+        }
     }
 
 }
