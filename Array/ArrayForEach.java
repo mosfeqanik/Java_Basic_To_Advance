@@ -5,6 +5,8 @@ public class ArrayForEach {
     public static void main(String[] args) {
         //Decalaration
         String[] name;
+        String classmateName[] ={"forhad","Sakib","nirjon","proshanto","Prodip"};
+        int roll[]= {10,120,32,32,3,4,523,5,342,523};
         
         name = new String[3];
         name[0] = "Md";
@@ -22,7 +24,16 @@ public class ArrayForEach {
         for (String x : name) {
             System.out.print(x + " ");
         }
-
+        System.out.println("");
+        System.out.println(classmateName.length);
+        
+        for(String x:classmateName){
+            System.out.print(x+ " ");
+        }
+        for(int x:roll){
+            System.out.println(x);
+        }
+        
     }
 
 }
