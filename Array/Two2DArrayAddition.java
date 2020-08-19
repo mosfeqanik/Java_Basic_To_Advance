@@ -12,6 +12,7 @@ public class Two2DArrayAddition {
         int[][] C = new int[2][3];
 
         System.out.println("enter Six element of A matrix: ");
+        
         //Getting data in array 
         for (int row = 0; row < A.length; row++) {
             for (int col = 0; col < 3; col++) {
