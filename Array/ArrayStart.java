@@ -4,6 +4,8 @@ public class ArrayStart {
     public static void main(String[] args) {
         
         int[] number; //Declaration
+        String classmateName[];
+        String[] FamilyMemberName;
         number = new int[5]; //initialization
         
         
