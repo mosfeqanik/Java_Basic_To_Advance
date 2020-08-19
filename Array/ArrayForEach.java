@@ -5,9 +5,9 @@ public class ArrayForEach {
     public static void main(String[] args) {
         //Decalaration
         String[] name;
-        String classmateName[] ={"forhad","Sakib","nirjon","proshanto","Prodip"};
-        int roll[]= {10,120,32,32,3,4,523,5,342,523};
-        
+        String classmateName[] = {"forhad", "Sakib", "nirjon", "proshanto", "Prodip"};
+        int roll[] = {10, 120, 32, 32, 3, 4, 523, 5, 342, 523};
+        int Marks[] = {130, 12, 322, 43, 54, 34, 15, 42, 23};
         name = new String[3];
         name[0] = "Md";
         name[1] = "Mosfeq";
@@ -26,14 +26,20 @@ public class ArrayForEach {
         }
         System.out.println("");
         System.out.println(classmateName.length);
-        
-        for(String x:classmateName){
-            System.out.print(x+ " ");
+
+        for (String x : classmateName) {
+            System.out.print(x + " ");
         }
-        for(int x:roll){
+        for (int x : roll) {
             System.out.println(x);
         }
-        
+
+        int sum = 0;
+        for (int x : roll) {
+            sum = sum + x;
+        }
+        System.out.println("sum of total Marks: "+sum);
+
     }
 
 }
