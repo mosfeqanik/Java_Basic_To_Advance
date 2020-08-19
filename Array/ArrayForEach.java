@@ -5,6 +5,7 @@ public class ArrayForEach {
     public static void main(String[] args) {
         //Decalaration
         String[] name;
+        //initializing
         String classmateName[] = {"forhad", "Sakib", "nirjon", "proshanto", "Prodip"};
         int roll[] = {10, 120, 32, 32, 3, 4, 523, 5, 342, 523};
         int Marks[] = {130, 12, 322, 43, 54, 34, 15, 42, 23};
