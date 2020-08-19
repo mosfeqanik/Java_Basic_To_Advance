@@ -37,6 +37,8 @@ public class ArrayFindingMaximumANDMinimum {
         System.out.println("Max of Array elements is :" + max);
         System.out.println("min of Array elements is :" + min);
         System.out.println("Average of Array elements is :" + average);
+       
+        
 
     }
 }
