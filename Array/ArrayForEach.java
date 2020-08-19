@@ -14,7 +14,7 @@ public class ArrayForEach {
         int lenght = name.length;
         System.out.println(lenght);
 
-        for (int i = 0; i <= 2; i++) {
+        for (int i = 0; i < 3; i++) {
             System.out.print(name[i] + " ");
         }
         System.out.println(" ");
