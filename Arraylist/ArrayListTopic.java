@@ -16,6 +16,10 @@ public class ArrayListTopic {
         numbers.add(333);
         System.out.println("Size : " + numbers.size());
         System.out.println(numbers + " ");
+        
+        numbers.remove(3);
+        System.out.println("add remove element from indexS 3: ");
+        System.out.println(numbers);
 
         numbers.add(3, 120);
         System.out.println("Size : " + numbers.size());
@@ -24,12 +28,14 @@ public class ArrayListTopic {
         System.out.println("");
         System.out.println("Size : " + numbers.size());
         System.out.println("for each:");
+        
         for (int x : numbers) {
             System.out.print(x + " ");
         }
         System.out.println("");
         System.out.println("Size : " + numbers.size());
         System.out.println("Use Iterator:");
+        
         Iterator itr = numbers.iterator();
         while (itr.hasNext()) {
             System.out.print(" " + itr.next());
@@ -37,6 +43,7 @@ public class ArrayListTopic {
         System.out.println(" ");
         //for loop
         System.out.println("for loop");
+        
         for (int i = 0; i < numbers.size(); i++) {
             System.out.print(numbers.get(i) + " ");
         }
@@ -44,6 +51,7 @@ public class ArrayListTopic {
         System.out.println("");
         numbers.remove(3);
         System.out.println("after removing:");
+        
         for (int i = 0; i < numbers.size(); i++) {
             System.out.print(numbers.get(i) + " ");
         }
