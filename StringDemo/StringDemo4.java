@@ -14,6 +14,7 @@ public class StringDemo4 {
         String[] s3=s1.split(" ");
         System.out.println(Arrays.toString(s3));
         
+        
         for(String x:s3){
             System.out.println(x);
         }   
