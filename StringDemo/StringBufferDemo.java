@@ -15,17 +15,17 @@ public class StringBufferDemo {
         System.out.println(S1);
 
         StringBuffer S2 = new StringBuffer("MD Mosfeq Anik");
-        
+
         System.out.println(S2);
 
         S2.delete(0, 4);
-        
+
         System.out.println(S2);
-        
+
         S2 = new StringBuffer("MD Mosfeq Anik");
         S2.setLength(5);
-        
+
         System.out.println(S2);
-        
+
     }
 }
