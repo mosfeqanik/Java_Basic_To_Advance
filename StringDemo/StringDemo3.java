@@ -18,14 +18,11 @@ public class StringDemo3 {
 
         int last = country.lastIndexOf('n');
         System.out.println("n's index is for last to first " + last);
-        
-        
+
         String computer_Name = " Dell Vostro ";
-        String s3= computer_Name.trim();
+        String s3 = computer_Name.trim();
         System.out.println(s3);
-        
-    
-    
+
     }
 
 }
