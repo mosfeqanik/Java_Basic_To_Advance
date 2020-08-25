@@ -13,8 +13,11 @@ public class StringDemo2 {
         System.out.printf("Display a Number %d", 15000);
         
         //several integers to display in the output
-        System.out.printf("Sum of %d and %d is %d", 15, 40, 55);
-        System.out.printf("My Name is %s. I was born in %d", "Mike", 1998);
+        System.out.printf("Sum of %d and %d is %d\n", 15, 40, 55);
+        System.out.printf("My Name is %s. I was born in %d \n", "Mike", 1998);
+        
+        System.out.printf("Display a Number %f \n", 15.23);
+        
         System.out.println("\n");
         //concatenation
         System.out.println("Full name: " + firstName + " " + SecondName);
