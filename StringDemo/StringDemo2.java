@@ -47,6 +47,7 @@ public class StringDemo2 {
         String[] names = {"Anik","jumur","adison","sakib","mosfeq","mahi"};
         System.out.println(Arrays.toString(names));
         
+        
         for (String x:names) {
             System.out.println(x);
         }
