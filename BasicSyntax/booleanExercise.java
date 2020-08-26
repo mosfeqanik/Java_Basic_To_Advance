@@ -36,18 +36,18 @@ public class booleanExercise {
 
         boolean trekking = dry && (!cold || summer); // true, let's go to trek!
 
-        boolean e1=false;
-        boolean e2=false;
-        e1=!e1 || e1;
-        System.out.println("!b1 || b2 "+e1);
-        e1=e1 || !!e2;
-        System.out.println("b1 || !!b2 "+e1);
-        e1=!e1 && e2;
-        System.out.println("!b1 && b2 "+e1);
-        e1=!(e1 || e2);
-        System.out.println("!(b1 || b2) "+e1);
-e1=!e1 && !e2;
-        System.out.println("!b1 && !b2 "+e1);        
+        boolean e1 = false;
+        boolean e2 = false;
+        e1 = !e1 || e1;
+        System.out.println("!b1 || b2 " + e1);
+        e1 = e1 || ! !e2;
+        System.out.println("b1 || !!b2 " + e1);
+        e1 = !e1 && e2;
+        System.out.println("!b1 && b2 " + e1);
+        e1 = !(e1 || e2);
+        System.out.println("!(b1 || b2) " + e1);
+        e1 = !e1 && !e2;
+        System.out.println("!b1 && !b2 " + e1);
     }
 
 }
