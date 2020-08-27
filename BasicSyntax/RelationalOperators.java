@@ -32,11 +32,6 @@ public class RelationalOperators {
         boolean descOrdered = (h1 >= h2) && (h2 >= h3);
 
         System.out.println(descOrdered);
-
-        
-        
-        
-
     }
 
 }
