@@ -1,0 +1,15 @@
+------------------------------------------------------------------------
+netbrains
+------------------------------------------------------------------------
+
+Select the lines you want to reformat (indenting), then hit Alt+Shift+F. 
+Only the selected lines will be reformatted. Ctrl + Shift + F w
+ill do a format of all the code in the page.
+
+
+
+------------------------------------------------------------------------
+jetbrains intellij 
+------------------------------------------------------------------------
+
+Reformat your code (Ctrl+Alt+L).
