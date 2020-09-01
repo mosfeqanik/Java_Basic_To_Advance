@@ -10,6 +10,10 @@ public class wrapperclassUnboxing {
         double e = dou.doubleValue();
         System.out.println("double "+e);
         
+        double f = dou;
+        System.out.println("double "+e);
+        
+        
          
     }
     
