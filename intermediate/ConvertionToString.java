@@ -1,14 +1,19 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package basic.intermediate;
 
-/**
- *
- * @author MN
- */
 public class ConvertionToString {
-    
+    public static void main(String[] args) {
+        int i = 100;
+        String s = Integer.toString(i);
+        System.out.println("s ="+s);
+        
+        double d = 100.33;
+        String f = Double.toString(d);
+        System.out.println("f ="+f);
+        
+        boolean b = true;
+        String g = Boolean.toString(b);
+        System.out.println("g ="+g);
+        
+    }
 }
