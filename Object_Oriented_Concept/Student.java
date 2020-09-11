@@ -10,6 +10,8 @@ public class Student {
         System.out.println("Anik's phone is " + phone);
         System.out.println("Anik's Address is " + Address);
         System.out.println("Anik's age is " + age);
+        
+        System.out.println("\n  ");
     }
     
 }
