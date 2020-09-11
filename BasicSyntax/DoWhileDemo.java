@@ -12,6 +12,7 @@ public class DoWhileDemo {
             value = scanner.nextInt();
             System.out.println(value);
         } while (value != 0);
+        
     }
 
 }
