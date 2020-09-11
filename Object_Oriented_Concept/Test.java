@@ -6,8 +6,8 @@ package basic.Object_Oriented_Concept;
 public class Test {
 
     public static void main(String[] args) {
-        Student Anik;
-        Anik = new Student();
+        Student Anik;//Declaration
+        Anik = new Student();//initialize
         Anik.roll = "1232";
         Anik.Class_name = "upper Class";
         Anik.name = "Anik";
