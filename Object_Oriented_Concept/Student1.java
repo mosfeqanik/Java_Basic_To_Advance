@@ -4,7 +4,11 @@ package basic.Object_Oriented_Concept;
 public class Student1 {
     String name, Class_name, Address, roll;
     int age, phone;
-
+    
+    Student1(){
+        System.out.println("No Value");
+    }
+    
     Student1(String n, String C_name, String address, String rl, int ag, int pn) {
         name = n;
         Class_name = C_name;

@@ -8,5 +8,9 @@ public class Declaration_And_initialize_With__constructor {
 
         Student1 anan = new Student1("Anan","Supreme Class","Mirpur","r2",10,1818231208);//Declaration with initialize
         anan.displayInfortamtion();
+        
+        Student1 mahi = new Student1();//Declaration with initialize
+        mahi.displayInfortamtion();
+        
     }
 }
