@@ -1,11 +1,11 @@
+
 package basic.Object_Oriented_Concept;
 
-public class Student {
-
+public class Student1 {
     String name, Class_name, Address, roll;
     int age, phone;
 
-    void setInformation(String n, String C_name, String address, String rl, int ag, int pn) {
+    Student1(String n, String C_name, String address, String rl, int ag, int pn) {
         name = n;
         Class_name = C_name;
         Address = address;
@@ -22,7 +22,8 @@ public class Student {
         System.out.println("Student's phone is " + phone);
         System.out.println("Student's Address is " + Address);
         System.out.println("Student's age is " + age);
+
         System.out.println("\n  ");
     }
-
+    
 }
